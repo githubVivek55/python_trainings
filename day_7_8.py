@@ -5,6 +5,12 @@
 
 a = input("Enter first number: ")
 b = input("Enter second number: ")
+try:
+    a = int(a)
+    b = int(b)
+except ValueError:
+    print("Invalid input. Please enter numbers only.")
+    exit()
 
 c= input("Enter the operator: ")
 
@@ -19,4 +25,3 @@ elif c == "/":
     print("Division: ", int(a) / int(b))
 else:
     print("Invalid operator")
-
