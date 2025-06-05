@@ -37,3 +37,16 @@ print("List comprehension with multiple loops:", x)
 
 y =[x if x%2==0 else x**2 for x in range(0,10)]
 print("List comprehension with if-else:", y)
+
+# tuple example
+my_tuple = (1, 2, 3, 4, 5)
+print("Tuple:", my_tuple)
+
+# tuple unpacking example
+a, b, c = my_tuple[:3]
+print("Unpacked values:", a, b, c)
+
+# tuple comprehension (using generator expression)
+tuple_comp = tuple(x**2 for x in range(5))
+print("Tuple comprehension:", tuple_comp)
+
