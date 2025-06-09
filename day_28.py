@@ -43,3 +43,9 @@ print(fibonacci_recursive(10))
 # sets
 vivek = {}
 print(type(vivek))
+
+a = {2,3,4,5,"vivek","Neha", True, False}
+a.add(6)
+
+print(a)
+
